@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
    allowedHosts: [
-      "jrmm-inventory-system.vercel.app", // ✅ your live Vercel domain
+      "corda-frontend.vercel.app", // ✅ your live Vercel domain
     ],
     proxy: {
       "/api": {
@@ -19,5 +19,6 @@ export default defineConfig({
     },
   },
 })
+
 
 
