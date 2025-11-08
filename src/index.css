@@ -52,9 +52,24 @@ h1 {
 .product-form textarea {
   width: calc(100% - 20px);
   padding: 10px;
+  font-size: medium;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  background-color: transparent;
+  color: #333;
+}
+
+.product-form input[type="text"]:focus,
+.product-form input[type="number"]:focus,
+.product-form textarea:focus {
+    padding: 10px;
+    font-size: medium;
+    border: 1px solid #499afc;
+    box-shadow: rgb(73, 154, 252);
+    outline: none;
+    background-color: transparent;
+    color: #333;
 }
 
 /*--- Buttons ---*/
@@ -163,3 +178,4 @@ button {
   background-color: #ec8fcd;
   border-radius: 4px;
 }
+
