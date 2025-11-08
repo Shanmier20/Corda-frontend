@@ -24,7 +24,7 @@ h1 {
 
 /*--- Forms ---*/
 .form-section {
-  background-color: #b0aeb0;
+  background-color: #e6e6e6;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(165, 109, 109, 0.1);
@@ -178,6 +178,7 @@ button {
   background-color: #ec8fcd;
   border-radius: 4px;
 }
+
 
 
 
