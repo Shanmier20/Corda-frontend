@@ -2,7 +2,7 @@
   font-family: sans-serif;
   color-scheme: light dark;
   color: #333;
-  background-color: #7d7c79;
+  background-color: #f7f7f7;
 }
 
 body {
@@ -18,18 +18,16 @@ body {
 
 h1 {
   text-align: center;
-  color: #1c1c1cb3;
+  color: #ff00aa;
   margin-bottom: 30px;
-  border: 1px solid #d9dadb;
-  background-color: #fff;
-  padding: 45px;
 }
 
+/*--- Forms ---*/
 .form-section {
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(165, 109, 109, 0.1);
   margin-bottom: 30px;
 }
 
@@ -56,22 +54,10 @@ h1 {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  color: #333;
   box-sizing: border-box;
-  background-color: transparent;
 }
 
-.product-form input[type="text"]:focus,
-.product-form input[type="number"]:focus,
-.product-form textarea:focus {
-    padding: 10px;
-    font-size: medium;
-    border: 1px solid #2b1cff;
-    outline: none;
-    background-color: transparent;
-    color: #333;
-}
-
+/*--- Buttons ---*/
 button {
   cursor: pointer;
   padding: 10px 15px;
@@ -82,7 +68,7 @@ button {
 }
 
 .btn-create {
-  background-color: #28a745;
+  background-color: #a81976;
   color: white;
 }
 
@@ -104,7 +90,6 @@ button {
   color: white;
   margin-left: 10px;
 }
-
 .btn-delete:hover {
   background-color: #c82333;
 }
@@ -119,7 +104,7 @@ button {
 }
 
 .btn-cancel {
-  background-color: #6c757d;
+  background-color: #350528;
   color: white;
   margin-top: 10px;
 }
@@ -128,6 +113,7 @@ button {
   background-color: #5a6268;
 }
 
+/*--- Product List ---*/
 .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -135,28 +121,27 @@ button {
 }
 
 .product-card {
-  background-color: #d9dadb;
-  border: 1px solid #ddd;
+  background-color: #f162aa;
+  border: 1px solid #e798df;
   padding: 15px;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.09);
+  box-shadow: #e798df;
 }
 
 .product-card h4 {
   margin-top: 0;
-  color: #303336;
-  font-size: 1.5em;
+  color: #790e40;
 }
 
 .product-card .price {
   font-size: 1.2em;
   font-weight: bold;
-  color: #28a745;
+  color: #440606;
   margin: 5px 0;
 }
 
 .product-card .description {
-  color: #666;
+  color: #1f052e;
   margin-bottom: 15px;
 }
 
@@ -164,6 +149,7 @@ button {
   margin-left: 0;
 }
 
+/*--- Utility ---*/
 .loading,
 .error-message {
   text-align: center;
@@ -172,14 +158,8 @@ button {
 }
 
 .error-message {
-  color: #dc3545;
-  border: 1px solid #dc3545;
-  background-color: #f8d7da;
+  color: #641e25;
+  border: 1px solid #3a2439;
+  background-color: #ec8fcd;
   border-radius: 4px;
 }
-
-
-
-
-
-
