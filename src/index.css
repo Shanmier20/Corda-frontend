@@ -1,6 +1,6 @@
 :root {
   font-family: sans-serif;
-  color-scheme: light dark;
+  color-scheme: dark;
   color: #3b3a3b;
   background-color: #9c7c98;
 }
@@ -179,6 +179,7 @@ button {
   background-color: #ec8fcd;
   border-radius: 4px;
 }
+
 
 
 
